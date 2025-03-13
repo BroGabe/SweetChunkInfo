@@ -1,0 +1,19 @@
+messages:
+  not-faction: '&6&lCHUNKINFO &eYou can only do this at faction land!'
+  cooldown-msg: '&6&lCHUNKINFO &fYou are on cooldown for &e%seconds% &fseconds!'
+  no-spawners: '&6&lCHUNKINFO &fThere are no spawner stacks inside this chunk!'
+
+command-cooldown: 3 # The time in seconds before being able to run the command again
+
+spawner-lore: '&e>&c> &7%spawner%: &f%amount%'
+
+redirect-command: true # Whether /f chunk info & /f chunkinfo should redirect to /chunkinfo
+
+message:
+  - ''
+  - '&6&l%faction%''s &e&lChunk Information'
+  - ''
+  - '%spawnerlist%'
+  - ''
+  - '&7&oDisplays all spawner stacks inside chunk'
+  - ''

@@ -1,0 +1,5 @@
+name: SweetChunkInfo
+version: '${project.version}'
+depend:
+  - FactionsKore
+main: com.thedev.sweetchunkinfo.SweetChunkInfo
