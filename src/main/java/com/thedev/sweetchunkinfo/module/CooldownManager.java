@@ -49,7 +49,9 @@ public class CooldownManager {
     }
 
     public void startTask() {
-        if(cooldownTask != null && Bukkit.getScheduler().isCurrentlyRunning(cooldownTask.getTaskId())) return;
+        if(cooldownTask != null &&
+                (Bukkit.getScheduler().isCurrentlyRunning(cooldownTask.getTaskId())
+                || Bukkit.getScheduler().isQueued(cooldownTask.getTaskId()))) return;
 
         cooldownTask = Bukkit.getScheduler().runTaskTimer(plugin, () -> {
             if(cooldownMap.isEmpty()) cooldownTask.cancel();

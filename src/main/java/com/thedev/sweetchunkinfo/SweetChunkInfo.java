@@ -1,7 +1,6 @@
 package com.thedev.sweetchunkinfo;
 
 import co.aikar.commands.PaperCommandManager;
-import com.golfing8.kore.feature.RoamFeature;
 import com.thedev.sweetchunkinfo.commands.ChunkInfoCommand;
 import com.thedev.sweetchunkinfo.listeners.CommandRedirect;
 import com.thedev.sweetchunkinfo.module.ChunkManager;
